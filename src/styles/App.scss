@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+* {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: $base-color;
+}
+
+.content {
+  .content__title {
+    font-size: 32px;
+    margin: 50px 0;
+    text-align: center;
+  }
+}

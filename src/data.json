@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "US GDP",
+    "date": "19-05-2021",
+    "text": "What will US GDP growth be in 2021?",
+    "imageUrl": "../../images/us-gdp.jpg",
+    "forecastsNumber": 40,
+    "currentForecast": "87% PROBABILITY, yes"
+  },
+  {
+    "id": 2,
+    "title": "Australia CPI",
+    "date": "18-05-2021",
+    "text": "What will Australian core inflation be for Q1 2022?",
+    "imageUrl": "../../images/aus-cpi.jpg",
+    "forecastsNumber": 30,
+    "currentForecast": "10% PROBABILITY, no"
+  },
+  {
+    "id": 3,
+    "title": "NSW Business Confidence",
+    "date": "18-05-2021",
+    "text": "Will New South Wales business confidence improve or fall in 2021?",
+    "imageUrl": "../../images/nsw-business.png",
+    "forecastsNumber": 23,
+    "currentForecast": "80% PROBABILITY, yes"
+  }
+]

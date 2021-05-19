@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.forecasts {
+  display: flex;
+
+  .forecasts__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+
+    .forecasts__card {
+      cursor: pointer;
+    }
+  }
+}
+
+.forecasts__card {
+  display: flex;
+  flex-direction: column;
+  width: 376px;
+  border: 1px solid $border-color;
+  margin-bottom: 24px;
+
+  .card__header {
+    background: $background-color-top;
+    border-bottom: 1px solid $border-color;
+    text-align: center;
+
+    .card__title {
+      color: $title-color;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 17px 48px;
+    }
+  }
+  .card__body {
+    padding: 0 48px;
+    .card__text {
+      text-align: center;
+    }
+  }
+}
